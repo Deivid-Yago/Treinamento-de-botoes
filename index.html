@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <title>Botões Estilizados</title>
+  <style>
+    body {
+      background: #0b1020;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      gap: 1rem;
+      font-family: Arial, sans-serif;
+    }
+
+    .btn {
+      padding: 0.75rem 1.5rem;
+      border-radius: 12px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: initial ;
+      border: none;
+      transition: all 0.3s ease;
+    }
+
+    /* Estilos diferentes para cada botão */
+    .btn-primary {
+      background: #4a90e2;
+      color: #fff;
+    }
+    .btn-primary:hover {
+      background: #357ab8;
+      transform: translateY(-2px);
+    }
+
+    .btn-secondary {
+      background: #e2e2e2;
+      color: #333;
+    }
+    .btn-secondary:hover {
+      background: #cfcfcf;
+      transform: translateY(-2px);
+    }
+
+    .btn-success {
+      background: #28a745;
+      color: #fff;
+    }
+    .btn-success:hover {
+      background: #218838;
+      transform: translateY(-2px);
+    }
+
+    .btn-danger {
+      background: #dc3545;
+      color: #fff;
+    }
+    .btn-danger:hover {
+      background: #b52a36;
+      transform: translateY(-2px);
+    }
+  </style>
+</head>
+<body>
+  <button class="btn btn-primary">Primário</button>
+  <button class="btn btn-secondary">Secundário</button>
+  <button class="btn btn-success">Sucesso</button>
+  <button class="btn btn-danger">Perigo</button>
+</body>
+</html>
+
